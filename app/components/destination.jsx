@@ -2,45 +2,6 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-export const metadata = {
-    title: "General Physicians | Book Doctor Consultation Online - Apollo Clone",
-    description:
-      "Find the best general physicians and internal medicine doctors online. Book appointments, check experience, consultation fees, and availability instantly.",
-    keywords: [
-      "General Physician",
-      "Internal Medicine",
-      "Doctor Consultation Online",
-      "Apollo Clone",
-      "Best doctors near me",
-    ],
-    openGraph: {
-      title: "General Physicians | Apollo Clone",
-      description:
-        "Book top general physicians and internal medicine specialists online with ease.",
-      url: "https://your-clone-url.com/destination",
-      siteName: "Apollo Clone",
-      images: [
-        {
-          url: "https://your-clone-url.com/og-image.jpg",
-          width: 1200,
-          height: 630,
-          alt: "Apollo General Physicians",
-        },
-      ],
-      type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "Consult General Physicians Online - Apollo Clone",
-      description:
-        "Easily book appointments with top-rated general physicians through our Apollo 24/7 clone.",
-      images: ["https://your-clone-url.com/twitter-image.jpg"],
-    },
-    alternates: {
-      canonical: "https://your-clone-url.com/destination",
-    },
-  };
-  
 
 export default function DestinationPage() {
   const [doctors, setDoctors] = useState([]);
